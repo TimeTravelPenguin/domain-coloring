@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "domain coloring"
+version = "0.1.0"
+description = ""
+authors = [
+  "Phillip Smith <35803538+TimeTravelPenguin@users.noreply.github.com>",
+]
+readme = "README.md"
+packages = [{ include = "domain_coloring", from = "src" }]
+
+[tool.poetry.scripts]
+dc = "domain_coloring.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.2"
+matplotlib = "^3.5.0"
+PyQt5 = "^5.15.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
