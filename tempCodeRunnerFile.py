@@ -1,2 +1,0 @@
-
-    # magnitude += epsilon
